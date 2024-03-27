@@ -14,7 +14,7 @@ p {
 }
 
 #a1 {
-    position: relative;
+    position: absolute;
     top: -24px;
     left: 960px;
     color: chartreuse;
@@ -26,7 +26,7 @@ p {
     color: blueviolet;
     text-transform: uppercase;
     
-    position: relative;
+    position: absolute;
     left: 120px;
 }
 
@@ -47,20 +47,20 @@ p {
 }
 
 hr {
-    position: relative;
+    position: absolute;
     right: 120px;
     left: 120px;
     /* position: absolute;  */ 
 }
 
 img {
-    position: relative;
+    position: absolute;
     left: 420px;
 }
 
 #baixa {
-    position: fixed;
-    left: 120px;
+    position: absolute;
+    left: 860px;
     top: 900px;
     right: 420px;
 }
