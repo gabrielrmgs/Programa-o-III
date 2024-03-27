@@ -1,4 +1,10 @@
+
+body {
+    background-color: blanchedalmond;
+}
+
 h1 {
+    background: none;
     color: aqua;
 }
 p {
@@ -8,11 +14,53 @@ p {
 }
 
 #a1 {
+    position: relative;
+    top: -24px;
+    left: 960px;
     color: chartreuse;
     font: optional;
+    
 }
 
 #a3 {
     color: blueviolet;
     text-transform: uppercase;
+    
+    position: relative;
+    left: 120px;
+}
+
+#rua {
+    color: coral;
+    font-style: italic;
+    font-stretch: narrower;
+    font-family: cursive;
+    font: bold;
+    font-variant: small-caps;
+}
+
+#div1 {
+    position: absolute;
+    top: 360px;
+    left: 180px;
+    right: 420px; 
+}
+
+hr {
+    position: relative;
+    right: 120px;
+    left: 120px;
+    /* position: absolute;  */ 
+}
+
+img {
+    position: relative;
+    left: 420px;
+}
+
+#baixa {
+    position: fixed;
+    left: 120px;
+    top: 900px;
+    right: 420px;
 }
